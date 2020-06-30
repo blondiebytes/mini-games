@@ -11,6 +11,6 @@ public class DiceTest {
 
     @Test
     public void roll_dice() {
-        assertEquals(3, underTest.roll_dice());
+        assertEquals(4, underTest.rollDice(1));
     }
 }
